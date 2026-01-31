@@ -4,10 +4,11 @@ import matplotlib.pyplot as plt
 
 # Read the image
 image_path = r"C:\Users\Admin\Desktop\test.jpg"
-image = Image.open(image_path)
+image = Image.open(image_paths)
 
 # Get image dimensions
 width, height = image.size
+height=image.height 
 
 # Calculate midpoints
 mid_x, mid_y = width // 2, height // 2
